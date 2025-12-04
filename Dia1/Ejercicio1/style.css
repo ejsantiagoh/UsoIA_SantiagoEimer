@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.character {
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
